@@ -23,6 +23,7 @@ Load CSV file --> Read CSV file and Send to kafka topic --> Read Data from kafka
 --> Run queries on snowflake 
 
 ## Architecture 
+![Architecture Diagram](https://github.com/vinay-github-2024/ETL_USING_PYTHON/blob/main/etl_using_python_architecture.png)
 
 ## Producer Code
 ```
