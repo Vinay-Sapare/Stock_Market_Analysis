@@ -23,7 +23,7 @@ Load CSV file --> Read CSV file and Send to kafka topic --> Read Data from kafka
 --> Run queries on snowflake 
 
 ## Architecture 
-![Architecture Diagram](https://github.com/vinay-github-2024/ETL_USING_PYTHON/blob/main/etl_using_python_architecture.png)
+![Architecture Diagram](stock_market_analysis_architecture.png)
 
 ## Producer Code
 ```
@@ -220,4 +220,8 @@ CREATE PIPE azure_pipe
     MATCH_BY_COLUMN_NAME=case_insensitive;
 
 ```
+
+## Conclusion
+This project successfully integrates Apache Kafka, Azure Blob Storage, and Snowflake to enable real-time stock market analysis. This streamlined data pipeline facilitates efficient data capture and advanced analytics, providing timely insights that enhance trading strategies.
+
 
